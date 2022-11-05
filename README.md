@@ -1,10 +1,12 @@
 # weatherML
 Soooo i did this little project following the instructions from the [Predict The Weather with Machine Learning](https://youtu.be/km95-NMT6lU) project from Dataquest.
 
-I looked for the weather data from Hanoi, where I currently stay, to make it more relatable and see if I can make it useful. Several changes were made to suit the data available.
+I looked for the weather data from Hanoi, where I currently stay, to make it more relatable and see if I can make it useful. Several adjustments were made to accommodate the available data.
 
-Near the end of the project, I encountered an error where it said I "cannot reindex on an axis with duplicate labels". So basically, I was trying to  create another column to calculate the monthly average temperature from the maximum temperature column, grouping the rows together according to the months. But turns out there are duplicated values in this column.
+I ran into an error near the end of the project that said I "can not reindex on an axis with duplicate labels." So, basically, I was attempting to build another column to determine the monthly average temperature from the maximum temperature column, while grouping the rows by months. However, it turns out that there are duplicate values in this column.
 
-I used df.index.is_unique and df.index.duplicated() to identify and look for these duplicated values and eventually found out that all the data that I first downloaded from NOAA were already non-unique LOL.
+I used df.index.is unique and df.index.duplicated() to identify and search for duplicated values, and eventually discovered that all of the data I first downloaded from NOAA were already non-unique LOL.
 
-So I guess I either need to deal with these values by removing them (but they make up most of the data lol) or I need to find data from other sources.
+So I think I'll have to deal with these values by removing them (though they make up the majority of the data, lol) or find data from other sources.
+
+I'm currently still trying to resolve this and also continue adding my own analysis and interpretations for optimization.
