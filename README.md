@@ -1,5 +1,5 @@
 # weatherML
-Soooo i did this little project following the instructions from the [Predict The Weather with Machine Learning](https://www.youtube.com/watch?v=km95-NMT6lU&t=2102s&ab_channel=Dataquest) project from Dataquest.
+Soooo i did this little project following the instructions from the [Predict The Weather with Machine Learning](https://youtu.be/km95-NMT6lU) project from Dataquest.
 
 I looked for the weather data from Hanoi, where I currently stay, to make it more relatable and see if I can make it useful. Several changes were made to suit the data available.
 
