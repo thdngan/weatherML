@@ -1,4 +1,4 @@
-# weatherML
+# Temperature prediction with Machine Learning
 Soooo i did this little project using the weather data from Hanoi, where I currently stay, to predict the temperature using Machine Learning.
 
 I ran into an error near the end of the project that said I "can not reindex on an axis with duplicate labels." So, basically, I was attempting to build another column to determine the monthly average temperature from the maximum temperature column, while grouping the rows by months. However, it turns out that there are duplicate values in this column.
