@@ -1,7 +1,5 @@
 # weatherML
-Soooo i did this little project following the instructions from the [Predict The Weather with Machine Learning](https://youtu.be/km95-NMT6lU) project from Dataquest.
-
-I looked for the weather data from Hanoi, where I currently stay, to make it more relatable and see if I can make it useful. Several adjustments were made to accommodate the available data.
+Soooo i did this little project using the weather data from Hanoi, where I currently stay, to predict the temperature using Machine Learning.
 
 I ran into an error near the end of the project that said I "can not reindex on an axis with duplicate labels." So, basically, I was attempting to build another column to determine the monthly average temperature from the maximum temperature column, while grouping the rows by months. However, it turns out that there are duplicate values in this column.
 
